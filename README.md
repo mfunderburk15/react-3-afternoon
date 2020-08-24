@@ -154,8 +154,8 @@ class App extends Component {
           <Compose />
           
           {
-            posts.map( post => (
-              <Post key={ post.id } />
+            posts.map(post => (
+              <Post key={post.id} />
             ))
           }
 
